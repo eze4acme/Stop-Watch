@@ -1,0 +1,32 @@
+body{
+    margin: 0;
+}
+.time-btn{
+    width: 80px;
+    height: 30px;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background-color: red;
+    color: #fff;
+    font-weight: bold;
+    font-family: monospace;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.time-display{
+    font-size: 40px;
+    font-weight: lighter;
+    color: green;
+    margin-bottom: 15px;
+
+}
+.container{
+    text-align: center;
+    background-color: darkgray;
+    padding: 20px 0px;
+    border-radius: 30px;
+    width: 60%;
+    margin: 10px auto;
+    
+}
