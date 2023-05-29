@@ -1,32 +1,45 @@
-body{
-    margin: 0;
+body {
+  margin: 0;
+  box-sizing: border-box;
+  overflow-x: hidden;
+  overflow-y: hidden;
+  user-select: none;
 }
-.time-btn{
-    width: 80px;
-    height: 30px;
-    border-radius: 8px;
-    border: none;
-    cursor: pointer;
-    background-color: red;
-    color: #fff;
-    font-weight: bold;
-    font-family: monospace;
-    font-size: 20px;
-    margin-bottom: 10px;
+.controls-btn {
+  box-sizing: border-box;
+  width: 60px;
+  height: 30px;
+  font-weight: bold;
+  border-radius: 10px;
+  outline: none;
+  background-color: #1f09ae8c;
+  color: #fff;
+  text-shadow: 0 0 black;
+  cursor: pointer;
+  border: solid 1px #00ff00;
 }
-.time-display{
-    font-size: 40px;
-    font-weight: lighter;
-    color: green;
-    margin-bottom: 15px;
-
+.time-display {
+  color: #ffff00;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: 60px;
+  text-shadow: 0 0 black;
 }
-.container{
-    text-align: center;
-    background-color: darkgray;
-    padding: 20px 0px;
-    border-radius: 30px;
-    width: 60%;
-    margin: 10px auto;
-    
+.container {
+  background-color: darkgray;
+  border-radius: 15px;
+  text-align: center;
+  padding: 0 20px;
+  padding-bottom: 20px;
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+h1 {
+  margin-bottom: 0px;
+  color: #1f09ae8c;
+  text-shadow: 0 0 black;
 }
